@@ -465,6 +465,7 @@
 				AD18FDE217FB60F100AECBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD18FDE317FB60F100AECBFD /* Build configuration list for PBXNativeTarget "Process MonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				AD18FDE517FB60F100AECBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

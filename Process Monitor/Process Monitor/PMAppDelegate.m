@@ -21,6 +21,11 @@
 {
     // Insert code here to initialize your application
     [self updateProcessList];
+    [NSTimer scheduledTimerWithTimeInterval:1.0
+                                     target:self
+                                   selector:@selector(updateProcessList)
+                                   userInfo:nil
+                                    repeats:YES];
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
